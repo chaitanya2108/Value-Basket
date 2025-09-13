@@ -1,0 +1,162 @@
+[
+  {
+    "address": "2210 Westlake Avenue North, Seattle",
+    "lat": 47.6183573,
+    "lng": -122.3380162,
+    "name": "Whole Foods Market",
+    "rating": 4.3,
+    "website": "https://www.wholefoodsmarket.com/stores/westlake?utm_source=google&utm_medium=organic&utm_campaign=listings"
+  },
+  {
+    "address": "1700 East Madison Street, Seattle",
+    "lat": 47.61582569999999,
+    "lng": -122.309937,
+    "name": "Trader Joe's",
+    "rating": 4.6,
+    "website": "https://locations.traderjoes.com/wa/seattle/130/?utm_source=gmb&utm_medium=organic&utm_campaign=local"
+  },
+  {
+    "address": "1410 East John Street, Seattle",
+    "lat": 47.62042,
+    "lng": -122.3130222,
+    "name": "Safeway",
+    "rating": 3.9,
+    "website": "https://local.safeway.com/safeway/wa/seattle/1410-e-john-st.html"
+  },
+  {
+    "address": "1600 East Madison Street, Seattle",
+    "lat": 47.61532800000001,
+    "lng": -122.311129,
+    "name": "Central Co-op",
+    "rating": 4.5,
+    "website": "http://www.centralcoop.coop/"
+  },
+  {
+    "address": "2201 East Madison Street, Seattle",
+    "lat": 47.6181711,
+    "lng": -122.3037929,
+    "name": "Safeway",
+    "rating": 3.9,
+    "website": "https://local.safeway.com/safeway/wa/seattle/2201-e-madison-st.html"
+  },
+  {
+    "address": "1221 South King Street, Seattle",
+    "lat": 47.5981862,
+    "lng": -122.316218,
+    "name": "Lam's Seafood Asian Market",
+    "rating": 4.1,
+    "website": "http://www.lamsseafood.com/"
+  },
+  {
+    "address": "109 Occidental Avenue South, Seattle",
+    "lat": 47.6013431,
+    "lng": -122.3332429,
+    "name": "Saveway Market",
+    "rating": 3.3,
+    "website": null
+  },
+  {
+    "address": "412 12th Avenue South, Seattle",
+    "lat": 47.598609,
+    "lng": -122.3168223,
+    "name": "Hau Hau Market",
+    "rating": 3.9,
+    "website": "https://m.facebook.com/pages/Hau-Hau-Market/145523912135158"
+  },
+  {
+    "address": "1011 Pike Street, Seattle",
+    "lat": 47.61323120000001,
+    "lng": -122.3289985,
+    "name": "Pike Grocery",
+    "rating": 3.8,
+    "website": "https://www.facebook.com/pikegroceryseattle/"
+  },
+  {
+    "address": "Ninth and Jefferson Building Garage, 901 James Street, Seattle",
+    "lat": 47.6055457,
+    "lng": -122.3244388,
+    "name": "Stockbox First Hill Grocery",
+    "rating": 3.4,
+    "website": null
+  },
+  {
+    "address": "2424 1st Avenue, Seattle",
+    "lat": 47.61473669999999,
+    "lng": -122.3485197,
+    "name": "Belltown Market",
+    "rating": 4,
+    "website": null
+  },
+  {
+    "address": "2221 3rd Avenue, Seattle",
+    "lat": 47.6142073,
+    "lng": -122.3444919,
+    "name": "Belltown Grocery",
+    "rating": 3.8,
+    "website": null
+  },
+  {
+    "address": "815 Pike Street, Seattle",
+    "lat": 47.61197310000001,
+    "lng": -122.3319248,
+    "name": "Ethioblue Store",
+    "rating": 4,
+    "website": null
+  },
+  {
+    "address": "917 East Jefferson Street, Seattle",
+    "lat": 47.6060409,
+    "lng": -122.3199817,
+    "name": "Southsea Grocery",
+    "rating": 4.7,
+    "website": null
+  },
+  {
+    "address": "1401 2nd Avenue, Seattle",
+    "lat": 47.608455,
+    "lng": -122.3386291,
+    "name": "Target Grocery",
+    "rating": 3.9,
+    "website": "https://www.target.com/c/order-pickup/-/N-ng0a0?aisles_cid=5xt1a%2CGrocery%2C%2Fc%2Fgrocery%2F-%2FN-5xt1a"
+  },
+  {
+    "address": "1601 2nd Avenue, Seattle",
+    "lat": 47.61027,
+    "lng": -122.3402051,
+    "name": "H Mart Downtown Seattle",
+    "rating": 4.4,
+    "website": "http://hmartus.com/"
+  },
+  {
+    "address": "1001 Mercer Street, Seattle",
+    "lat": 47.624104,
+    "lng": -122.33675,
+    "name": "Mayuri International Foods | Seattle",
+    "rating": 3.5,
+    "website": "https://www.mayuriseattle.com/"
+  },
+  {
+    "address": "Grocery Department, 2108 East Denny Way, Seattle",
+    "lat": 47.61840189999999,
+    "lng": -122.3043953,
+    "name": "Spice SPC Indian Grocery & Foods (ARM Foods)",
+    "rating": 4.8,
+    "website": "https://spicespc.com/"
+  },
+  {
+    "address": "665 23rd Avenue, Seattle",
+    "lat": 47.60782409999999,
+    "lng": -122.3032958,
+    "name": "ampm",
+    "rating": 2.4,
+    "website": "https://www.ampm.com/"
+  },
+  {
+    "address": "1001 South Jackson Street, Seattle",
+    "lat": 47.59897279999999,
+    "lng": -122.3193984,
+    "name": "Dong Hing Market",
+    "rating": 3.9,
+    "website": null
+  }
+]

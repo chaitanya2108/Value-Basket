@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}About - Flask App{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="mb-0">
+                    <i class="fas fa-info-circle me-2"></i>About This Application
+                </h2>
+            </div>
+            <div class="card-body">
+                <p class="lead">
+                    This is a basic Flask application with a modern, responsive UI built using Bootstrap 5.
+                </p>
+
+                <h4 class="mt-4 mb-3">Features</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fas fa-check text-success me-3"></i>
+                        <span>Flask web framework</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fas fa-check text-success me-3"></i>
+                        <span>Bootstrap 5 for responsive design</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fas fa-check text-success me-3"></i>
+                        <span>Font Awesome icons</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fas fa-check text-success me-3"></i>
+                        <span>Template inheritance</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fas fa-check text-success me-3"></i>
+                        <span>RESTful API endpoints</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <i class="fas fa-check text-success me-3"></i>
+                        <span>Modern JavaScript functionality</span>
+                    </li>
+                </ul>
+
+                <h4 class="mt-4 mb-3">Getting Started</h4>
+                <div class="alert alert-info">
+                    <h6 class="alert-heading">
+                        <i class="fas fa-lightbulb me-2"></i>Quick Start
+                    </h6>
+                    <ol class="mb-0">
+                        <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+                        <li>Run the application: <code>python app.py</code></li>
+                        <li>Open your browser to <code>http://localhost:5000</code></li>
+                    </ol>
+                </div>
+
+                <h4 class="mt-4 mb-3">API Endpoints</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th>Endpoint</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="badge bg-primary">GET</span></td>
+                                <td><code>/</code></td>
+                                <td>Home page</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge bg-primary">GET</span></td>
+                                <td><code>/about</code></td>
+                                <td>About page</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge bg-success">GET</span></td>
+                                <td><code>/api/status</code></td>
+                                <td>API status endpoint</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

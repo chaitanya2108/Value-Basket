@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Flask App{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <!-- Hero Section -->
+        <div class="jumbotron bg-gradient text-white rounded p-5 mb-5">
+            <div class="text-center">
+                <h1 class="display-4 fw-bold mb-4">
+                    <i class="fas fa-rocket me-3"></i>Welcome to Flask!
+                </h1>
+                <p class="lead mb-4">
+                    Your Flask application is up and running successfully.
+                    This is a basic startup UI to get you started.
+                </p>
+                <button class="btn btn-light btn-lg me-3" onclick="checkStatus()">
+                    <i class="fas fa-check-circle me-2"></i>Check Status
+                </button>
+                <a href="{{ url_for('about') }}" class="btn btn-outline-light btn-lg">
+                    <i class="fas fa-info-circle me-2"></i>Learn More
+                </a>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row mb-5">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-bolt fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Fast Development</h5>
+                        <p class="card-text">
+                            Flask provides a lightweight and flexible framework for rapid web development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-cogs fa-3x text-success mb-3"></i>
+                        <h5 class="card-title">Easy to Configure</h5>
+                        <p class="card-text">
+                            Simple configuration and easy to extend with your own features and functionality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-shield-alt fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title">Secure & Reliable</h5>
+                        <p class="card-text">
+                            Built with security in mind and follows best practices for web development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Section -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-server me-2"></i>Application Status
+                </h5>
+            </div>
+            <div class="card-body">
+                <div id="status-content">
+                    <p class="text-muted">Click "Check Status" to see the current application status.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
